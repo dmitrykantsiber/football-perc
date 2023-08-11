@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import "../../App.css";
 
 const Button13 = ({setValues}) => {
-  let newArray = ["Знач." , 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ]
+  let newArray = ["Знач." , 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  ]
   const [inputValue, setInputValue] = useState(0)
   const handleSubmit = () => {
-    setValues(["Знач." , 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ])
+    setValues(["Знач." , 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  ])
     for(let i=0; i<inputValue;i++){
-      let r = Math.floor(Math.random() * (13 - 1 + 1) + 1)
+      let r = Math.floor(Math.random() * (12 - 1 + 1) + 1)
       newArray[r] +=1
     }
     setValues(newArray)

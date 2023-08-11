@@ -6,7 +6,7 @@ import Button13 from "./Button13";
 
 const Row13 = () => {
   const [values, setValues] = useState([
-   "Знач." , 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+   "Знач." , 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
   ]);
 
   return (

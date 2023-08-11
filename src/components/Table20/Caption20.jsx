@@ -24,8 +24,7 @@ const Caption = () => {
     <Cell number={16}/>
     <Cell number={17}/>
     <Cell number={18}/>
-    <Cell number={19}/>
-    <Cell number={20}/></div>
+   </div>
   )
 }
 

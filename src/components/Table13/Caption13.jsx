@@ -18,7 +18,6 @@ const Caption13 = () => {
     <Cell number={10}/>
     <Cell number={11}/>
     <Cell number={12}/>
-    <Cell number={13}/>
 </div>
   )
 }
