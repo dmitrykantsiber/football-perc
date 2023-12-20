@@ -3,7 +3,7 @@ import "../../App.css";
 
 const Button6 = ({setValues}) => {
   let newArray = ["Знач." , 0, 0, 0, 0, 0, 0,,]
-  const [inputValue, setInputValue] = useState(0)
+  const [inputValue, setInputValue] = useState(1)
   const handleSubmit = () => {
     setValues(["Знач." , 0, 0, 0, 0, 0, 0,])
     for(let i=0; i<inputValue;i++){
