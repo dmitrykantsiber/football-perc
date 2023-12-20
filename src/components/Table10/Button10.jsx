@@ -3,7 +3,7 @@ import "../../App.css";
 
 const Button13 = ({setValues}) => {
   let newArray = ["Знач." , 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-  const [inputValue, setInputValue] = useState(0)
+  const [inputValue, setInputValue] = useState(1)
   const handleSubmit = () => {
     setValues(["Знач." , 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,])
     for(let i=0; i<inputValue;i++){
@@ -17,7 +17,7 @@ const Button13 = ({setValues}) => {
   }
   return (
     <div className="button">
-      <input style={{marginTop:"20px", width:"200px"}} type="number" value={inputValue || 1} onChange={handleOnChange}/>
+      <input style={{marginTop:"20px", width:"200px"}} type="number" value={inputValue} onChange={handleOnChange}/>
       <button style={{width:"200px", height:"100px", fontSize:"25px", margin:"20px"}} onClick={handleSubmit}>Генерировать</button>
     </div>
   );
