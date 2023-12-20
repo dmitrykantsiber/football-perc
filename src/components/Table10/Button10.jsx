@@ -17,7 +17,7 @@ const Button13 = ({setValues}) => {
   }
   return (
     <div className="button">
-      <input style={{marginTop:"20px", width:"200px"}} type="number" value={inputValue} onChange={handleOnChange}/>
+      <input style={{marginTop:"20px", width:"200px"}} type="number" value={inputValue || 1} onChange={handleOnChange}/>
       <button style={{width:"200px", height:"100px", fontSize:"25px", margin:"20px"}} onClick={handleSubmit}>Генерировать</button>
     </div>
   );
